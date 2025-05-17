@@ -47,3 +47,8 @@ export const POST_QUERY =
     image
   }
 }`)
+
+export const LANDING_PAGE_QUERY =
+  defineQuery(`*[_type == "landingPage"][0]{ 
+  ...
+}`)
